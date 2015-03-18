@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="画笔颜色:" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/pen_color"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="画笔大小(px):" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/pen_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模糊效果:" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/blur_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="橡皮擦大小(px):" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/erase_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/transparent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明度调节(10):" />
+
+    <SeekBar
+        android:id="@+id/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="10" />
+
+</LinearLayout>

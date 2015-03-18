@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aa32c1"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dip"
+        android:src="@drawable/bluehills" />
+
+    <com.jiangjie.ps.ImageTouchView
+        android:id="@+id/switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:scaleType="matrix"
+        android:src="@drawable/test_img" />
+
+    <CheckBox
+        android:id="@+id/ckTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dip"
+        android:focusable="false"
+        android:text="图片旋转"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/ckKeepScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ckTurn"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:focusable="false"
+        android:text="保持比例"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/ckErase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ckKeepScale"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:focusable="false"
+        android:text="橡皮擦"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/ckColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ckErase"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:focusable="false"
+        android:text="染色"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/settings"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ckColor"
+        android:text="设置"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/save"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/settings"
+        android:text="保存"
+        android:textSize="10dp" />
+
+</RelativeLayout>

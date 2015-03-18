@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EraseImage</string>
+    <string name="tx_erase">Erase</string>
+    <string name="tx_unerase">Un-Erase</string>
+    <string name="tx_apply">Apply</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

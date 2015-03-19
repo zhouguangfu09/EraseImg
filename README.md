@@ -7,16 +7,16 @@
 ####相关界面
 * 原图
 
-	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/1.png)
+	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/png/1.png)
 	
 * 画笔大小为32，透明度为255（不透明),如下图：
 
-	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/2.png)
+	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/png/2.png)
 	
 * 画笔大小为32，透明度为10，如下图：
 
-	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/3.png)
+	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/png/3.png)
 	
 * 部分擦除后：
 
-	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/4.png)
+	![image](https://github.com/zhouguangfu09/EraseImg/blob/master/png/4.png)
